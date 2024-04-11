@@ -16,7 +16,7 @@ model = dict(
         norm_eval=True,
         style='pytorch',
         with_cp=True,
-        init_cfg=dict(type='Pretrained', checkpoint='/mnt/csip-108/VAN-Classification-main/hv_cat_with3x3_stage1to3_hvnormFIXED_attn_Resnet_EMA_e300_256x4/model.pth.tar')),
+        init_cfg=dict(type='Pretrained', checkpoint='model.pth.tar')),
     neck=dict(
         type='FPN',
         in_channels=[256, 512, 1024, 2048],
