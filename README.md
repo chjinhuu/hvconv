@@ -4,7 +4,7 @@
 This convolution module is especially designed for **remote sensing** object detection.
 
 ## Result
-Our model on DOTA-v1.0 obb dataset, baseline method is Oriented R-CNN with R50 and hvconv replaced convolution in R50.
+Our model on DOTA-v1.0 obb dataset, baseline method is **Oriented R-CNN** with R50 and hvconv replaced convolution in R50.
 | method | train | batchsize | result | model |
 |-------|:-------:|:-------:|:-------:|:-------:|
 | baseline | ss | - | 75.87 | - | 
